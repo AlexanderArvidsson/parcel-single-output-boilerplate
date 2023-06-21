@@ -11,14 +11,14 @@
     "build:no-optimize": "yarn build --no-optimize"
   },
   "devDependencies": {
-    "@parcel/reporter-bundle-analyzer": "2.3.0",
-    "@parcel/reporter-bundle-buddy": "2.3.0",
-    "@parcel/transformer-sass": "2.3.1",
+    "@parcel/reporter-bundle-analyzer": "2.9.2",
+    "@parcel/reporter-bundle-buddy": "2.9.2",
+    "@parcel/transformer-sass": "2.9.2",
     "@types/react": "^18.2.13",
     "@types/react-dom": "^18.2.6",
-    "@types/webpack-env": "^1.16.3",
-    "autoprefixer": "^10.4.2",
-    "parcel": "2.3.0"
+    "@types/webpack-env": "^1.18.1",
+    "parcel": "2.9.2",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",
