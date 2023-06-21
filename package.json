@@ -1,0 +1,27 @@
+{
+  "name": "parcel-single-output-boilerplate",
+  "source": "src/index.html",
+  "version": "1.0.0",
+  "repository": "git@github.com:AlexanderArvidsson/parcel-single-output-boilerplate.git",
+  "author": "Alexander Arvidsson <alexander@arvidson.nu>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "build:no-optimize": "yarn build --no-optimize"
+  },
+  "devDependencies": {
+    "@parcel/reporter-bundle-analyzer": "2.3.0",
+    "@parcel/reporter-bundle-buddy": "2.3.0",
+    "@parcel/transformer-sass": "2.3.1",
+    "@types/react": "^18.2.13",
+    "@types/react-dom": "^18.2.6",
+    "@types/webpack-env": "^1.16.3",
+    "autoprefixer": "^10.4.2",
+    "parcel": "2.3.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

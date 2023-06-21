@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["es2017", "dom"],
+    "module": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "jsx": "preserve"
+  }
+}
